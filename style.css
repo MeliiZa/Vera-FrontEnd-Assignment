@@ -1,0 +1,174 @@
+body{
+    background-color:#10012C;
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+
+h1,h3,h2,h5,p{
+    color:#FFFFFF;
+    padding-bottom:1em;
+}
+h3{
+    font-size: 32px;
+}
+p {
+    font-size: 24px;
+}
+.logo-navbar{
+    width:250px;
+    padding-left:2em;
+}
+.social{
+    background-color: #9FFFEC;
+    color: red;
+    margin:2px;
+    width:40px;
+    padding:7px;
+    height:40px;
+}
+
+.top-header{
+    border-top:2px solid #4A33CB;
+}
+
+.container-text{
+    padding-left:7em;
+}
+
+
+.split-background {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    height: 90vh;
+    background: linear-gradient(to right, #160644 70%, #2D1D97 30%);
+    color: white;
+}
+
+.thankyou{
+    width:870px;
+    padding-left:8em;
+    padding-top:5em;
+}
+h1{
+    margin-top:2em;
+}
+
+/*Explore more section*/
+.explore-more-container {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+.explore-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 1rem;
+    white-space: nowrap;
+    font-family: "Volkhov", serif;
+    font-weight: 400;
+    font-size: 44px;
+}
+
+.horizontal-line {
+    background-color: #4A33CB;
+    margin: 0.5rem auto 3rem;
+    flex-grow: 1;
+    height: 4px;
+}
+.explore-more-section{
+    margin-bottom:6em;
+}
+.links{
+    background-color: #2E1D96;
+    color: white;
+    border-left:2px solid #CFFAFF;
+    padding-left:10px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    display: block;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; /* Semi Bold */
+    font-size:24px;
+}
+
+/*Justice Card Section*/
+.card{
+    background: #160644;
+}
+
+.card-title{
+    color:white;
+    font-family: "Volkhov", serif;
+    font-weight: 400;
+    font-size: 32px;
+    padding:1em;
+    padding-top:3.5em;
+}
+
+.card-link{
+    text-decoration: none;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size:24px;
+    padding-left:1.5em;
+}
+
+@media (max-width: 767px) {
+    .logo-navbar {
+        width: 160px;
+        align-items: center;
+        margin: auto;
+        display: block;
+        padding-left: 0;
+    }
+    .container-fluid.top-header {
+        padding-left: 0;
+    }
+    .container-text,
+    .thankyou {
+        width: 100%;
+        padding-top: 1em; 
+    }
+    .thankyou{
+        padding-left:0;
+    }
+    .split-background {
+        background: linear-gradient(#2D1D97 9%, #160644 5%);
+        margin-bottom: 2em;
+    }
+    .container-text {
+        padding-left: 1em; 
+    }
+    .split-background {
+        height: auto; 
+    }
+    .explore-more-section .row {
+        margin-right: 0; 
+        margin-left: 0; 
+    }
+    .explore-more-section .col-sm-12 {
+        padding-right: 0; 
+        padding-left: 0;
+    }
+    .links {
+        padding-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-right: 2em;
+        font-size: 18px;
+    }
+    .explore-heading {
+        font-size: 30px;
+    }
+    .card-title {
+        padding-top: 1.5em;
+    }
+    .card-body {
+        padding-bottom: 3em;
+    }
+    
+}
+
