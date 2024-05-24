@@ -116,7 +116,7 @@ h1{
     padding-left:1.5em;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
     .logo-navbar {
         width: 160px;
         align-items: center;
