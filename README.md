@@ -34,5 +34,5 @@ https://github.com/MeliiZa/Vera-FrontEnd-Assignment.git
 
 ## Try it online:
 
-[Online Version](https://meliiza.github.io/Vera-FrontEndAssignment/)
+[Online Version](https://meliiza.github.io/Vera-FrontEnd-Assignment/)
 
