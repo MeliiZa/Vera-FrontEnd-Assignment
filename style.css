@@ -40,6 +40,7 @@ p {
     display: flex;
     align-items: center;
     padding: 2rem;
+    margin-bottom: 4em;
     height: 90vh;
     background: linear-gradient(to right, #160644 70%, #2D1D97 30%);
     color: white;
