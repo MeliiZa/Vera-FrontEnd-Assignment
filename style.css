@@ -27,6 +27,10 @@ p {
     padding-left:2em;
 }
 
+a{
+    text-decoration: none;
+}
+
 .social {
     background-color: #9FFFEC;
     color: red;
