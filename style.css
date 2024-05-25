@@ -158,6 +158,11 @@ h1{
     font-size:24px;
     padding-left:1.5em;
 }
+.card-link:hover,
+.card-link:focus {
+    color: #9FFFEC;
+    text-decoration: underline;
+}
 
 @media (max-width: 1024px) {
     .logo-navbar {
