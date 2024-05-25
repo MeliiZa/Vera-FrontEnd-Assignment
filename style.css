@@ -101,6 +101,14 @@ h1{
     font-weight: 600; /* Semi Bold */
     font-size:24px;
 }
+.links:hover {
+    background-color: #CFFAFF; /* Change background color on hover */
+    color: #2E1D96; /* Change font color on hover */
+}
+
+.links:hover img {
+    filter: invert(87%) sepia(46%) saturate(3017%) hue-rotate(267deg) brightness(95%) contrast(91%); /* Adjust SVG color on hover */
+}
 
 /*Justice Card Section*/
 .card{
