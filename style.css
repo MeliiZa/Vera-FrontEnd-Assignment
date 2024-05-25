@@ -26,13 +26,35 @@ p {
     width:250px;
     padding-left:2em;
 }
-.social{
+
+.social {
     background-color: #9FFFEC;
     color: red;
-    margin:2px;
-    width:40px;
-    padding:7px;
-    height:40px;
+    margin: 2px;
+    width: 40px;
+    padding: 7px;
+    height: 40px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.social:focus {
+    outline: 2px solid #4A33CB;
+}
+
+.social img {
+    transition: filter 0.3s ease;
+}
+
+.social:hover,
+.social:focus {
+    background-color: #EF4136;
+    color: #9FFFEC;
+}
+
+.social:hover img,
+.social:focus img {
+    filter: invert(87%) sepia(46%) saturate(3017%) hue-rotate(267deg) brightness(95%) contrast(91%);
 }
 
 .top-header{
@@ -98,16 +120,16 @@ h1{
     display: block;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600; /* Semi Bold */
+    font-weight: 600; 
     font-size:24px;
 }
 .links:hover {
-    background-color: #CFFAFF; /* Change background color on hover */
-    color: #2E1D96; /* Change font color on hover */
+    background-color: #CFFAFF; 
+    color: #2E1D96;
 }
 
 .links:hover img {
-    filter: invert(87%) sepia(46%) saturate(3017%) hue-rotate(267deg) brightness(95%) contrast(91%); /* Adjust SVG color on hover */
+    filter: invert(87%) sepia(46%) saturate(3017%) hue-rotate(267deg) brightness(95%) contrast(91%); 
 }
 
 /*Justice Card Section*/
